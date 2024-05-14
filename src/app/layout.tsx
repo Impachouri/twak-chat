@@ -21,7 +21,7 @@ export default function RootLayout({
         {children}
         <Script
           strategy="lazyOnload"
-          src={`https://embed.tawk.to/${process.env.PROPERTY_ID}`}
+          src={`https://embed.tawk.to/${process.env.TWAK_PROPERTY_ID}`}
         />
       </body>
     </html>
