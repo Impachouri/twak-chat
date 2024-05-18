@@ -1,8 +1,8 @@
-// /api/webhooks
+// /api/webhook
 
 import { headers } from "next/headers";
 import { createHmac } from "crypto";
-import sendEmailNotification from "@/utils/emailService";
+import { sendEmailNotification } from "@/utils/emailService";
 
 const WEBHOOK_SECRET = process.env.TWAK_SECRET_KEY;
 
